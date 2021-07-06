@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CarInfo</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="http://fonts.cdnfonts.com/css/dynalight" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!-- Image and text -->
+        <nav class="nav_bar">
+            <a id="FG" href="#">
+                <img id="logo" src="images/car_icon.png" width="40" height="40" alt="">
+                CarInfo
+            </a>
+        </nav>
+
+        <section>
+            <div id="box">
+                <form action="#">
+                    <h3>Enter Registration Number</h3>
+                    <input type="text" id="number">
+                    <button class="btn" type="reset" onclick="Info()">Fetch Info </button>
+                </form>
+            </div>
+            
+        </section>
+
+        <section id="out">
+            <h2>Vehicle Details Will Be Displayed Below</h2>
+            <div id="output"></div>
+        </section>
+
+    </body>
+</html>
